@@ -1,8 +1,8 @@
 import Header from "./components/NavBar/NavBar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
-import avatarMichelle from "./assets/perfil-avatar-mujer-icono-redondo_24640-14042.avif";
-import avatarOswaldo from "./assets/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpeg";
-import avatarCarolin from "./assets/png-transparent-avatar-face-girl-female-woman-profile-happy-avatar-icon.png";
+import avatarMouse from "./assets/mouse-razer.jpeg";
+import avatarTeclado from "./assets/teclado-razer.webp";
+import avatarMonitor from "./assets/monitor-razer.jpg";
 import './App.css';
 
 
@@ -13,22 +13,19 @@ const App = () => {
       <Header/>
       <div className="userSection">
         <ItemListContainer
-          name="Michelle Aragon"
-          date="14 September"
-          description="Frontend Developer"
-          imagen={avatarMichelle}
+          name="Razer Cobra Pro"
+          description="Alto rendimiento en un ratón compacto y simétrico"
+          imagen={avatarMouse}
         />
         <ItemListContainer
-          name="Oswaldo Rick"
-          date="14 October"
-          description="Fullstack Developer"
-          imagen={avatarOswaldo}
+          name="Razer Huntsman V2"
+          description="Con interruptores ópticos analógicos"
+          imagen={avatarTeclado}
         />
         <ItemListContainer
-          name="Carolin Trigger"
-          date="14 November"
-          description="Design"
-          imagen={avatarCarolin}
+          name="Razer Raptor 27"
+          description="IPS-Grade display for incredible detail and picture clarity"
+          imagen={avatarMonitor}
         />
       </div>
     </>
